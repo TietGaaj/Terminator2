@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="https://api.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css" rel="stylesheet" />
+<title>Terminator 2</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="map" style='width: 400px; height: 300px;'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoicHJvNW9wZ2F2ZSIsImEiOiJjamZtaTR6MnEwenczMzNycWxoNjJkMWNuIn0.ZnoU1y_TDh1S7LF0fZ6pxg';
+var map = new mapboxgl.Map({
+container: "map",
+style: "mapbox://styles/mapbox/streets-v10
+});
+</script>
+</body>
+</html>
